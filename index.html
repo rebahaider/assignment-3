@@ -27,6 +27,7 @@
               colors: {
                 clifford: '#da373d',
                 'primary-color': '#FF4240',
+                'secondary-color': '#131318',
               }
             }
           }
@@ -39,9 +40,9 @@
     <title>Assignment 3</title>
 
 </head>
-<body>
+<body class="">
 
-    <header class="container mx-auto my-6">
+    <header class="container mx-auto my-10">
         <!-- navbar section -->
         <div class="navbar bg-base-100 mb-5">
             <div class="navbar-start">
@@ -107,12 +108,97 @@
                 </div>
               </div>
               <!-- badge section -->
-              <div class="bg-[#131318] rounded-2xl p-8 lg:w-5/12 lg:absolute end-20 bottom-8">
+              <div class="bg-secondary-color rounded-2xl p-8 lg:w-5/12 lg:absolute end-20 bottom-8">
                 <h3 class="text-2xl font-extrabold text-[#FFF]">Meet all the heroes from the field</h3>
                 <p class="text-[#FFFFFF99]">Hockey is a term used to denote a family of various types of both summer and winter team sports which originated on either an outdoor field, sheet of ice, or dry floor such as in a gymnasium.</p>
               </div>
         </div>
     </header>
-    
+    <main class="container mx-auto my-20">
+        <!-- Professional Hockeys Club section -->
+        <section>
+            <div class="text-center space-y-6">
+                <h2 class="text-4xl text-secondary-color font-extrabold">Professional Hockeys Club</h2>
+                <p class="text-secondary-color font-medium lg:px-80 pb-7">Hockey is a term used to denote a family of various types of both summer and winter team sports which originated on either an outdoor field</p>
+            </div>
+            <!-- radial progress section -->
+            <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <!-- number 1 radial progress -->
+            <div class="text-center">
+                <div class="radial-progress text-primary-color h-[120px] w-[120px]" style="--value:87;" role="progressbar">
+                    <h4 class=" text-secondary-color font-extrabold text-4xl">87%</h4>
+                </div>
+                <h3 class="text-secondary-color font-semibold text-xl">Prayer Facility</h3>
+                <p class="text-[#13131899] ">Every Muslim is expected to pray five times a day.</p>
+            </div>
+            <!-- number 2 radial progress -->
+            <div class="text-center">
+                <div class="radial-progress text-[#49D293] h-[120px] w-[120px]" style="--value:95;" role="progressbar">
+                    <h4 class=" text-secondary-color font-extrabold text-4xl">95%</h4>
+                </div>
+                <h3 class="text-secondary-color font-semibold text-xl">Experienced Coach</h3>
+                <p class="text-[#13131899]">Every Muslim is expected to pray five times a day.</p>
+            </div>
+            <!-- number 3 radial progress -->
+            <div class="text-center">
+                <div class="radial-progress text-[#FFB546] h-[120px] w-[120px]" style="--value:90;" role="progressbar">
+                    <h4 class=" text-secondary-color font-extrabold text-4xl">90%</h4>
+                </div>
+                <h3 class="text-secondary-color font-semibold text-xl">Senior Player</h3>
+                <p class="text-[#13131899]">Every Muslim is expected to pray five times a day.</p>
+            </div>
+            <!-- number 4 radial progress -->
+            <div class="text-center">
+                <div class="radial-progress text-[#4C8DF1] h-[120px] w-[120px]" style="--value:80;" role="progressbar">
+                    <h4 class=" text-secondary-color font-extrabold text-4xl">80%</h4>
+                </div>
+                <h3 class="text-secondary-color font-semibold text-xl">Training Ground</h3>
+                <p class="text-[#13131899]">Every Muslim is expected to pray five times a day.</p>
+            </div>
+            </div>
+        </section>
+        <!-- Program Sections -->
+        <section>
+            <div class="text-center mt-20">
+                <h2 class="text-4xl font-extrabold text-secondary-color mb-2">Program Sections</h2>
+                <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey.</p>
+            </div>
+            <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                <!-- card 1 -->
+                <div class="hero rounded-2xl h-[338px]" style="background-image: url(Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mt-24 mb-5 text-2xl font-extrabold text-white">Junior Program</h1>
+                        <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey.</p>
+                        <button class="btn bg-primary-color border-primary-color text-white font-bold text-2xl">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                  <div class="hero rounded-2xl h-[338px]" style="background-image: url(Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mt-24 mb-5 text-2xl font-extrabold text-white">Teenager Program</h1>
+                        <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey.</p>
+                        <button class="btn bg-primary-color border-primary-color text-white font-bold text-2xl">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 3 -->
+                  <div class="hero col-span-2 rounded-2xl h-[450px]" style="background-image: url(Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mt-28 mb-5 text-2xl font-extrabold text-white">Professional Program</h1>
+                        <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey.</p>
+                        <button class="btn bg-primary-color border-primary-color text-white font-bold text-2xl">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
